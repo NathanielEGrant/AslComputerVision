@@ -1,6 +1,10 @@
 # ASL Alphabet Computer Vision 🤟
 
-A deployable machine learning and computer vision project that interprets the ASL alphabet from the user and displays the predicted letter in real time.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/) 
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/) 
+[![Streamlit](https://img.shields.io/badge/Streamlit-📊-brightgreen.svg)](https://streamlit.io/)
+
+A deployable **machine learning + computer vision project** that interprets the **ASL alphabet** from live video input and displays the predicted letter in real time.
 
 ![demo](assets/demo.gif)
 
