@@ -12,6 +12,11 @@ A deployable machine learning and computer vision project that interprets the AS
 ## 🧱 Tech Stack
 - Python • TensorFlow/Keras • MediaPipe • OpenCV • Streamlit
 
+## 🗂️ Data
+- Used [ASL Alphabet Dataset](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset)
+- dataset has about 7500 images per label
+- Labels include A-Z, nothing, delete, and space.
+
 ## 📊 Results (quick)
 - Accuracy: **91% test**
 - Notes: ROI cropping + MediaPipe landmarks improved stability
