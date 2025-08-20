@@ -8,22 +8,24 @@ A deployable **machine learning + computer vision project** that interprets the 
 
 ![demo](assets/demo.gif)
 
-## ✨ Highlights
-- Built with **TensorFlow**, **MediaPipe**, and **OpenCV**
-- Robust **hand detection** and clean **letter labeling**
-- Solid baseline **accuracy** on held-out data (add your %)
+## ✨ Features
+- 📊 **Deep Learning Model** trained on ASL alphabet dataset (MobileNetV2 backbone)  
+- 🖐️ **Hand Tracking** with [MediaPipe](https://mediapipe.dev/)  
+- 🎥 **Real-time Inference** via OpenCV + optional Streamlit UI  
+- 💾 **TFLite Export** for lightweight deployment 
 
 ## 🧱 Tech Stack
 - Python • TensorFlow/Keras • MediaPipe • OpenCV • Streamlit
 
 ## 🗂️ Data
-- Used [ASL Alphabet Dataset](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset)
+- Project was trained using [ASL Alphabet Dataset](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset)
 - dataset has about 7500 images per label
 - Labels include A-Z, nothing, delete, and space.
 
 ## 📊 Results (quick)
-- Accuracy: **91% test**
-- Notes: ROI cropping + MediaPipe landmarks improved stability
+- Achieved **91%** on held-out validation set
+- Stable **hand detection** using MediaPipe landmarks  
+- Correctly labeled ASL alphabet signs with confidence overlay
 
 ## 🧠 How It Works (overview)
 - **MediaPipe** locates the hand and creates a bounding box
@@ -37,4 +39,4 @@ A deployable **machine learning + computer vision project** that interprets the 
 - Expand to dynamic signs (words)
 
 ---
-Created by **Nathan Grant**
+Created by **Nathaniel Grant**
