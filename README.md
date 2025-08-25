@@ -22,7 +22,7 @@ A deployable **machine learning + computer vision project** that interprets the 
 - dataset has about 7500 images per label
 - Labels include A-Z, nothing, delete, and space.
 
-## 📊 Results (quick)
+## 📊 Results
 - Achieved **91%** on held-out validation set
 - Stable **hand detection** using MediaPipe landmarks  
 - Correctly labeled ASL alphabet signs with confidence overlay
